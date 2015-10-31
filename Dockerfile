@@ -13,3 +13,4 @@ ADD etc/supervisord.d/*.ini /etc/supervisord.d/
 ADD opt/openhab/configurations/ /opt/openhab/configurations/
 CMD [ "/opt/openhab/start.sh" ]
 
+ADD opt/qnib/openhab/bin/start.sh /opt/qnib/openhab/bin/
