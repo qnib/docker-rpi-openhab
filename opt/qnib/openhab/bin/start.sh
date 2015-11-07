@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd `dirname $0`
+cd /opt/openhab/
 
 # set path to eclipse folder. If local folder, use '.'; otherwise, use /path/to/eclipse/
 eclipsehome="server";
